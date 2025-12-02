@@ -17,6 +17,10 @@ O projeto foi desenvolvido fazendo uso de:
 - Typescritp
 - React Native
 
+## Diferença entre os testes Unitarios e os Testes e2e
+Os 2 testes servem para execuções distintas o testes unitarios normalmente testam o codigo vendo  o menor dos itens e e são mais rapidos de rodar tambem fazendo uso de mock de dados para executar seus testes. Não dependendo do navegador ou do ambiente.
+Já os testes e2e ele foca se a aplicação esta rodando e fazendo o que deve, podendo usar alguma função de clique que oriente os testes, eles são mais lentos e sussetiveis a conexão e outros fatores externos. No caso os testes e2e só querem saber se o item esta lá.
+
 ## Prints
 <table>
   <tr>
